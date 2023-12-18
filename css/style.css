@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&family=Montserrat:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 62.5%;
+}
+
+/* session1 e session2*/
+.hiden {
+    display: none;
+}
+
+.session1 {
+
+}
+.session2 h2{ 
+
+    width:33rem;
+    text-align: center;
+}
+.session2  button{
+    border-radius: .4rem;
+    margin-top:3.3rem;
+
+}
+body {
+
+    display: grid;
+    place-items: center;
+    margin-top: -12rem;
+    height: 100vh;
+    font-size: 1.6rem;
+    background: linear-gradient(288deg, #C2E9FB 0%, #A1C4FD 100%);
+
+}
+
+main {
+
+    padding: 4.8rem 6.4rem 6.4rem;
+    border-radius: 6px;
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.10);
+    width: min(42.8rem, 90%);
+    text-align: center;
+
+}
+
+h1 {
+    color: #34355B;
+    font-family: 'Montserrat';
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    margin-top: 1.6rem;
+    color: rgba(52, 53, 91, 0.80);
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 24px */
+
+}
+
+button,
+input,
+p {
+    font-family: 'DM Sans';
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 4.8rem;
+}
+
+input,
+button {
+    padding: 1.6rem;
+    border: none;
+}
+
+button {
+    border-radius: 0 .4rem .4rem 0;
+    background: var(--Iris-80, #7879F1);
+    color: var(--NEUTRAL-White, #FFF);
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor:pointer;
+
+    transition: background , .3s;
+}
+button:hover {
+    background: var(--Iris-80, #5151f5);
+}
+
+input {
+    width: 6.3rem;
+    border-radius: .4rem 0 0 .4rem;
+    background: #DCE2E9;
+}
